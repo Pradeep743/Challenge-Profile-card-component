@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <!-- Tailwind CSS cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Profile card component</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="flex flex-col h-screen items-center justify-center font-normal">
+
+    <main class="max-w-xs">
+        <div class="bg-white rounded-3xl">
+            <div>
+                <img src="./images/bg-pattern-card.svg" alt="" class="rounded-t-3xl">
+            </div>
+            <div class="relative">
+                <div class="flex justify-center">
+                    <img src="./images/image-victor.jpg" alt="" class="rounded-full absolute -top-12">
+                </div>
+                <div class="flex flex-col items-center mt-16 mb-7">
+                    <h1 class="font-bold">Victor Crest <span class="age">26</span></h1>
+                    <p class="mt-1 text-sm location font-normal">London</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-3 place-items-center border-t-2 gap-2 p-6">
+                <div class="flex flex-col items-center">
+                    <p class="font-bold">80K</p>
+                    <p class="description text-xs font-normal">Followers</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <p class="font-bold">803K</p>
+                    <p class="description text-xs font-normal">Likes</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <p class="font-bold">1.4K</p>
+                    <p class="description text-xs font-normal">Photos</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="flex justify-center mt-5">
+        <p class="text-gray-400">
+            Coded by <a href="https://github.com/Pradeep743" target="_blank" class="text-white">Pradeep Sahu</a>
+        </p>
+    </footer>
+</body>
+
+</html>
